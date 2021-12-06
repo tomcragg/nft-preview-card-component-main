@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-size: 18px;
+  font-family: 'Outfit';
+}
+
+.container {
+ max-width: 1440px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ 
+}
+
+.card {
+  width: 370px;
+  height: 650px;
+  border-radius: 20px;
+  background-color: hsl(216, 50%, 16%);
+  display: flex;
+  flex-direction: column;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  ;
+}
+
+.nft-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.nft-image img {
+  width: 85%;
+  height: auto;
+  align-self: center;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.nft-desc {
+  
+}
+
+.sale {
+
+}
+
+.eth-price {
+
+}
+
+.sale-end {
+
+}
+
+.creator {
+
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
