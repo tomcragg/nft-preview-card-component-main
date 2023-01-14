@@ -7,68 +7,121 @@
 body {
   background-color: hsl(217, 54%, 11%);
   font-size: 18px;
-  font-family: 'Outfit';
+  font-family: "Outfit";
+  max-width: 1440px;
 }
 
 .container {
- max-width: 1440px;
- display: flex;
- flex-direction: column;
- align-items: center;
- 
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
-  width: 370px;
-  height: 650px;
-  border-radius: 20px;
+  max-width: 350px;
+  border-radius: 16px;
   background-color: hsl(216, 50%, 16%);
   display: flex;
   flex-direction: column;
+  box-shadow: 0 24px 18px rgba(0, 0, 0, 0.2);
 }
 
-.card-container {
-  display: flex;
-  flex-direction: column;
-  ;
+.text-box {
+  padding: 0 26px;
 }
 
 .nft-image {
+  /* width: 100%; */
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 26px 0;
+}
+
+.nft-image img {
+  width: 100%;
+  /* display: inline-block; */
 }
 
 .nft-image img {
   width: 85%;
   height: auto;
   align-self: center;
-  margin: 20px;
   border-radius: 10px;
 }
 
-.nft-desc {
-  
+.nft-desc h3 {
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 16px;
+}
+
+.nft-desc p {
+  color: hsl(215, 51%, 70%);
+  padding-bottom: 24px;
 }
 
 .sale {
-
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  border-bottom: 1px solid hsl(215, 51%, 70%);
 }
 
 .eth-price {
+  display: flex;
+}
 
+.eth-price img {
+  padding-right: 8px;
+}
+
+.eth-price p {
+  color: hsl(178, 100%, 50%);
 }
 
 .sale-end {
+  display: flex;
+}
 
+.sale-end img {
+  padding-right: 8px;
+}
+
+.sale-end p {
+  color: hsl(215, 51%, 70%);
 }
 
 .creator {
+  padding: 24px 0;
+  display: flex;
+  align-items: center;
+}
 
+.creator img {
+  width: 30px;
+  height: 30px;
+  border: 2px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  padding-right: 10px;
+}
+
+.creator p {
+  padding-left: 10px;
+  color: hsl(215, 51%, 70%);
+}
+
+.creator-name {
+  color: hsl(0, 0%, 100%);
 }
 
 .attribution {
   font-size: 11px;
-  text-align: center;
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
 }
 
 .attribution a {
